@@ -1,0 +1,168 @@
+.intro_page{
+    background-color: #1a5a96;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 50px;
+    color: white;
+}
+.bleed{
+    box-shadow: 0 0 0 100vmax #1a5a96;
+    clip-path: inset(0 -100vmax);
+    
+}
+.learnmore{
+    background-color: #1a5a96;
+}
+.mainphoto {
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+.HelloIam {
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    line-height: 1.3in;
+}
+.homesub {
+    margin-top: 0px;
+    font-size: 22px;
+    line-height: 25px;
+}
+.aboutme{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 50px;
+}
+.aboutmesubtitle{
+    font-size: 22px;
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 40px;
+    text-align: center;
+}
+.flow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.cardadjust{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.cardbody{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.centered {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5rem;
+    padding-bottom: 100px;
+    color: white;
+}
+.contact-section {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navborder{
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: background-color 1s, font-size 1s, padding 1s, color 1s, border-radius 1s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(194, 28, 28);
+    font-size: 20px;
+    padding:10px;
+    color: white;
+    border-radius: 100px;
+    transition: 1s;
+}
+.cardadjust:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 12px 20px -10px rgba(150, 26, 26, 0.7);
+}
+.buttondl:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
+
+.leftrev{    
+    animation: RevealLeft .7s ease 0s 1 normal forwards;
+}
+.rightrev{
+    animation: RevealRight .7s ease 0s 1 normal forwards;
+}
+.toprev{
+    animation: RevealTop .7s ease 0s 1 normal forwards;
+}
+
+@keyframes RevealLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes RevealRight {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes RevealTop {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

@@ -1,0 +1,69 @@
+.intro_page{
+    background-color: #961a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 50px;
+    color: white;
+}
+.mainphoto {
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+.HelloIam {
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    line-height: 1.3in;
+}
+.homesub {
+    font-family: 'Inter', sans-serif;
+    margin-top: 0px;
+    font-size: 22px;
+    line-height: 25px;
+}
+.aboutme{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 50px;
+}
+.aboutmesubtitle{
+    font-size: 22px;
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    text-align: center;
+}
+.flow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+.cardadjust{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardbody{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.centered {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.contact-section {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+}
